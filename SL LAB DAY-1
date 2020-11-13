@@ -1,0 +1,51 @@
+#PYTHON PROGRAM TO DEMONSTRATE 
+#NUMERIC TYPES IN PYTHON
+
+a = 10
+print("Type of a: ", type(a)) 
+  
+b = 15.0
+print("\nType of b: ", type(b)) 
+  
+c = 5 + 4K
+print("\nType of c: ", type(c))
+
+
+
+#PYTHON PROGRAM TO DEMONSTRATE
+#STRINGS IN PYTHON
+
+my_string = 'Hello world'
+print(my_string)
+
+my_string = "Hello world"
+print(my_string)
+
+my_string = '''Hello world'''
+print(my_string)
+
+# triple quotes string can extend multiple lines
+
+my_string = """Hello, welcome to
+           the world of scripting languages"""
+print(my_string)
+
+## program to demonstrate typecasting
+x = 123
+y= 5.0
+
+print("Data type of x:",type(x))
+print("Data type of x before Type Casting:",type(x))
+
+x = float(x)
+print("Data type of  after Type Casting:",type(x))
+
+print("Data type of y:",type(y))
+print("Data type of y before Type Casting:",type(y))
+
+y=int(y)
+print("Data type of  after Type Casting:",type(y))
+
+
+
+
